@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b3583234281bcaa7aa7671a9ad194218 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b3583234281bcaa7aa7671a9ad194218" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b3583234281bcaa7aa7671a9ad194218 = L.map(
+                "map_b3583234281bcaa7aa7671a9ad194218",
+                {
+                    center: [40.765, -73.974],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14.5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6ca8b06b718dd127b8eb38708d8012f7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6ca8b06b718dd127b8eb38708d8012f7.addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var marker_ba04d47bd6aaed262e52405e34e1ee38 = L.marker(
+                [40.7632, -73.9715],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_3bbe3f31994221a8d340b9b7b7c7dbad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4635817705f910820552f0010ff63d04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57aa2650cc988d3cd374d4bb496e9c04 = $(`<div id="html_57aa2650cc988d3cd374d4bb496e9c04" style="width: 100.0%; height: 100.0%;"><b>Balenciaga-Madison Ave.</b></div>`)[0];
+                popup_4635817705f910820552f0010ff63d04.setContent(html_57aa2650cc988d3cd374d4bb496e9c04);
+            
+        
+
+        marker_ba04d47bd6aaed262e52405e34e1ee38.bindPopup(popup_4635817705f910820552f0010ff63d04)
+        ;
+
+        
+    
+    
+                marker_ba04d47bd6aaed262e52405e34e1ee38.setIcon(icon_3bbe3f31994221a8d340b9b7b7c7dbad);
+            
+    
+            var marker_49f5b9183fa4337b7ab707cce24f671e = L.marker(
+                [40.7645, -73.9737],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_439acca22c2da19d088c752138e635ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29f35d0a5d5878085d6606d95f9718e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33c0bcd30c0b2a97ed6336dcec27a87c = $(`<div id="html_33c0bcd30c0b2a97ed6336dcec27a87c" style="width: 100.0%; height: 100.0%;"><b>Gucci-Madison Ave.</b></div>`)[0];
+                popup_29f35d0a5d5878085d6606d95f9718e6.setContent(html_33c0bcd30c0b2a97ed6336dcec27a87c);
+            
+        
+
+        marker_49f5b9183fa4337b7ab707cce24f671e.bindPopup(popup_29f35d0a5d5878085d6606d95f9718e6)
+        ;
+
+        
+    
+    
+                marker_49f5b9183fa4337b7ab707cce24f671e.setIcon(icon_439acca22c2da19d088c752138e635ad);
+            
+    
+            var marker_eb0218264a866fe82f3e0d25cfc3e04b = L.marker(
+                [40.7642, -73.9731],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_81dcfe26e3134f78f23ccc9d5d48e768 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e53ec17944dfe1ec6cd7bc3719b13842 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53d59dabd243f8ad7d3d63d829fdf76d = $(`<div id="html_53d59dabd243f8ad7d3d63d829fdf76d" style="width: 100.0%; height: 100.0%;"><b>Brioni-Madison Ave.</b></div>`)[0];
+                popup_e53ec17944dfe1ec6cd7bc3719b13842.setContent(html_53d59dabd243f8ad7d3d63d829fdf76d);
+            
+        
+
+        marker_eb0218264a866fe82f3e0d25cfc3e04b.bindPopup(popup_e53ec17944dfe1ec6cd7bc3719b13842)
+        ;
+
+        
+    
+    
+                marker_eb0218264a866fe82f3e0d25cfc3e04b.setIcon(icon_81dcfe26e3134f78f23ccc9d5d48e768);
+            
+    
+            var marker_9ebcc1c3c2f77429122c49cd41035c47 = L.marker(
+                [40.7646, -73.9719],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_b2e4508bdcebda7659ca9d0997fa3399 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6488d9e170e63d29f5ecbd9469c69c1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0875427fe05e5ed6227619cec0643869 = $(`<div id="html_0875427fe05e5ed6227619cec0643869" style="width: 100.0%; height: 100.0%;"><b>Bottega-Madison Ave.</b></div>`)[0];
+                popup_6488d9e170e63d29f5ecbd9469c69c1d.setContent(html_0875427fe05e5ed6227619cec0643869);
+            
+        
+
+        marker_9ebcc1c3c2f77429122c49cd41035c47.bindPopup(popup_6488d9e170e63d29f5ecbd9469c69c1d)
+        ;
+
+        
+    
+    
+                marker_9ebcc1c3c2f77429122c49cd41035c47.setIcon(icon_b2e4508bdcebda7659ca9d0997fa3399);
+            
+    
+            var marker_ad38057103f3d574fdb2b1e33ae88e50 = L.marker(
+                [40.7628, -73.9744],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_3ba7f7b3e7f68ee2eefed8f5499edf5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1180fa7c8e3dbeea60d0d425125751ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a2fffd48e284ded4ad8b9b7cc73c070 = $(`<div id="html_6a2fffd48e284ded4ad8b9b7cc73c070" style="width: 100.0%; height: 100.0%;"><b>Saint Laurent-Madison Ave.</b></div>`)[0];
+                popup_1180fa7c8e3dbeea60d0d425125751ed.setContent(html_6a2fffd48e284ded4ad8b9b7cc73c070);
+            
+        
+
+        marker_ad38057103f3d574fdb2b1e33ae88e50.bindPopup(popup_1180fa7c8e3dbeea60d0d425125751ed)
+        ;
+
+        
+    
+    
+                marker_ad38057103f3d574fdb2b1e33ae88e50.setIcon(icon_3ba7f7b3e7f68ee2eefed8f5499edf5f);
+            
+    
+            var marker_f527e5229ab10c82d0963e2c6486bfa7 = L.marker(
+                [40.7639, -73.9711],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_999e955bccd7b1d42cd387b54da3ff6e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a813c6cb3599b54a32469518fa1ca70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d68e1ccf5b3c3af1569cc3d093dcaaf6 = $(`<div id="html_d68e1ccf5b3c3af1569cc3d093dcaaf6" style="width: 100.0%; height: 100.0%;"><b>Boucheron-Madison Ave.</b></div>`)[0];
+                popup_2a813c6cb3599b54a32469518fa1ca70.setContent(html_d68e1ccf5b3c3af1569cc3d093dcaaf6);
+            
+        
+
+        marker_f527e5229ab10c82d0963e2c6486bfa7.bindPopup(popup_2a813c6cb3599b54a32469518fa1ca70)
+        ;
+
+        
+    
+    
+                marker_f527e5229ab10c82d0963e2c6486bfa7.setIcon(icon_999e955bccd7b1d42cd387b54da3ff6e);
+            
+    
+            var marker_cbfbef99862f5622b4cdd837eaa914c4 = L.marker(
+                [40.764, -73.9728],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_a823815a7c674fe804be20fbae83224b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_556e0814bb0546a1285c74bbd413aa68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a18b043e09b7127ba15cab2d65d545a1 = $(`<div id="html_a18b043e09b7127ba15cab2d65d545a1" style="width: 100.0%; height: 100.0%;"><b>McQueen-Madison Ave.</b></div>`)[0];
+                popup_556e0814bb0546a1285c74bbd413aa68.setContent(html_a18b043e09b7127ba15cab2d65d545a1);
+            
+        
+
+        marker_cbfbef99862f5622b4cdd837eaa914c4.bindPopup(popup_556e0814bb0546a1285c74bbd413aa68)
+        ;
+
+        
+    
+    
+                marker_cbfbef99862f5622b4cdd837eaa914c4.setIcon(icon_a823815a7c674fe804be20fbae83224b);
+            
+    
+            var marker_0ac333a6d77497684f495faf8d29799b = L.marker(
+                [40.7651, -73.972],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_1037a79a93b9c9bd1aa5bd55ee29c39d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d15f42b0ce3656f1874a2dac9ecd4b80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_260efb1285afcecfc522b22e479ae222 = $(`<div id="html_260efb1285afcecfc522b22e479ae222" style="width: 100.0%; height: 100.0%;"><b>Pomellato-Madison Ave.</b></div>`)[0];
+                popup_d15f42b0ce3656f1874a2dac9ecd4b80.setContent(html_260efb1285afcecfc522b22e479ae222);
+            
+        
+
+        marker_0ac333a6d77497684f495faf8d29799b.bindPopup(popup_d15f42b0ce3656f1874a2dac9ecd4b80)
+        ;
+
+        
+    
+    
+                marker_0ac333a6d77497684f495faf8d29799b.setIcon(icon_1037a79a93b9c9bd1aa5bd55ee29c39d);
+            
+    
+            var marker_cd1ccf219f3ba6d2d2ba20b966328c39 = L.marker(
+                [40.7405, -74.0089],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_983a50e2dabc1321b5a1d4af0448b5d4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c0e28beaab788743240ba965b4a3e478 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5c1ceaec7722b655dd215b474f4daa1 = $(`<div id="html_f5c1ceaec7722b655dd215b474f4daa1" style="width: 100.0%; height: 100.0%;"><b>Balenciaga-Meatpacking</b></div>`)[0];
+                popup_c0e28beaab788743240ba965b4a3e478.setContent(html_f5c1ceaec7722b655dd215b474f4daa1);
+            
+        
+
+        marker_cd1ccf219f3ba6d2d2ba20b966328c39.bindPopup(popup_c0e28beaab788743240ba965b4a3e478)
+        ;
+
+        
+    
+    
+                marker_cd1ccf219f3ba6d2d2ba20b966328c39.setIcon(icon_983a50e2dabc1321b5a1d4af0448b5d4);
+            
+    
+            var marker_d70a3251f7248c37a0b6b1698ce1799e = L.marker(
+                [40.7398, -74.0084],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_1799ad79efd0772e48167a318e597479 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cbce35a5eea015193d68a49c7fe88ad6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87d6e5da8e796dc9150af13693bbb116 = $(`<div id="html_87d6e5da8e796dc9150af13693bbb116" style="width: 100.0%; height: 100.0%;"><b>Gucci-Meatpacking</b></div>`)[0];
+                popup_cbce35a5eea015193d68a49c7fe88ad6.setContent(html_87d6e5da8e796dc9150af13693bbb116);
+            
+        
+
+        marker_d70a3251f7248c37a0b6b1698ce1799e.bindPopup(popup_cbce35a5eea015193d68a49c7fe88ad6)
+        ;
+
+        
+    
+    
+                marker_d70a3251f7248c37a0b6b1698ce1799e.setIcon(icon_1799ad79efd0772e48167a318e597479);
+            
+    
+            var marker_064fede45b224cb41f4fd018afd592e4 = L.marker(
+                [40.7396, -74.0083],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_bdee7ce5d2f09d37622692576de63161 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_35a5dcbdb30d77f74d9f9737a461f92f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99e4c976bb057c64f3cd494ab907d13f = $(`<div id="html_99e4c976bb057c64f3cd494ab907d13f" style="width: 100.0%; height: 100.0%;"><b>Brioni-Meatpacking</b></div>`)[0];
+                popup_35a5dcbdb30d77f74d9f9737a461f92f.setContent(html_99e4c976bb057c64f3cd494ab907d13f);
+            
+        
+
+        marker_064fede45b224cb41f4fd018afd592e4.bindPopup(popup_35a5dcbdb30d77f74d9f9737a461f92f)
+        ;
+
+        
+    
+    
+                marker_064fede45b224cb41f4fd018afd592e4.setIcon(icon_bdee7ce5d2f09d37622692576de63161);
+            
+    
+            var marker_7ca2afbf5d8de043d633753c8572be6a = L.marker(
+                [40.7394, -74.0081],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_20637f49a9d28df6f321dc012735cdd3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_68174c4035c650119a9f6f617cf3c7a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15ea97a87e2d8f806ed8db9a991f17a2 = $(`<div id="html_15ea97a87e2d8f806ed8db9a991f17a2" style="width: 100.0%; height: 100.0%;"><b>Bottega-Meatpacking</b></div>`)[0];
+                popup_68174c4035c650119a9f6f617cf3c7a9.setContent(html_15ea97a87e2d8f806ed8db9a991f17a2);
+            
+        
+
+        marker_7ca2afbf5d8de043d633753c8572be6a.bindPopup(popup_68174c4035c650119a9f6f617cf3c7a9)
+        ;
+
+        
+    
+    
+                marker_7ca2afbf5d8de043d633753c8572be6a.setIcon(icon_20637f49a9d28df6f321dc012735cdd3);
+            
+    
+            var marker_bbcff6d31d4fde9d5f37a17a07f6b044 = L.marker(
+                [40.7392, -74.008],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_8c42c8ab32a6e05865503b04b479725c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0fe1451cecb1566d6eaf1c6b3ffb65ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15c762117a3c39b0212f83d6e0a3aadd = $(`<div id="html_15c762117a3c39b0212f83d6e0a3aadd" style="width: 100.0%; height: 100.0%;"><b>Saint Laurent-Meatpacking</b></div>`)[0];
+                popup_0fe1451cecb1566d6eaf1c6b3ffb65ea.setContent(html_15c762117a3c39b0212f83d6e0a3aadd);
+            
+        
+
+        marker_bbcff6d31d4fde9d5f37a17a07f6b044.bindPopup(popup_0fe1451cecb1566d6eaf1c6b3ffb65ea)
+        ;
+
+        
+    
+    
+                marker_bbcff6d31d4fde9d5f37a17a07f6b044.setIcon(icon_8c42c8ab32a6e05865503b04b479725c);
+            
+    
+            var marker_680af9c34275ca43aadfac347155e4bd = L.marker(
+                [40.7635, -73.9742],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_48b79524318d8202d29842683fac6c60 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "brown",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0d9a18bb64137feb88f90cb9d8b3db38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b3a97b10f44504026f9e83dee12b031 = $(`<div id="html_9b3a97b10f44504026f9e83dee12b031" style="width: 100.0%; height: 100.0%;"><b>Ginori Café</b></div>`)[0];
+                popup_0d9a18bb64137feb88f90cb9d8b3db38.setContent(html_9b3a97b10f44504026f9e83dee12b031);
+            
+        
+
+        marker_680af9c34275ca43aadfac347155e4bd.bindPopup(popup_0d9a18bb64137feb88f90cb9d8b3db38)
+        ;
+
+        
+    
+    
+                marker_680af9c34275ca43aadfac347155e4bd.setIcon(icon_48b79524318d8202d29842683fac6c60);
+            
+    
+            var marker_2450fb8d5d58058c97720cf48e5d6f73 = L.marker(
+                [40.7639, -73.9743],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_b0a62a8ed204a98db7520a979030cf22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e05d471be01f65c1e8fe9ffca5e2a8f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9abc72f1c1bd528b0df752ca586c328 = $(`<div id="html_b9abc72f1c1bd528b0df752ca586c328" style="width: 100.0%; height: 100.0%;"><b>Bergdorf Goodman</b></div>`)[0];
+                popup_e05d471be01f65c1e8fe9ffca5e2a8f0.setContent(html_b9abc72f1c1bd528b0df752ca586c328);
+            
+        
+
+        marker_2450fb8d5d58058c97720cf48e5d6f73.bindPopup(popup_e05d471be01f65c1e8fe9ffca5e2a8f0)
+        ;
+
+        
+    
+    
+                marker_2450fb8d5d58058c97720cf48e5d6f73.setIcon(icon_b0a62a8ed204a98db7520a979030cf22);
+            
+    
+            var marker_fcc1ab7eef35353b9a783416bf4805e5 = L.marker(
+                [40.7635, -73.9745],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_3b25ea82cd5e477a891c1ea21e28bae5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fbdedc205008fe8c9ecaf4ff06df808c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_425d25473f2b77ba979a843fb235138f = $(`<div id="html_425d25473f2b77ba979a843fb235138f" style="width: 100.0%; height: 100.0%;"><b>717 Building, 5th Ave.</b></div>`)[0];
+                popup_fbdedc205008fe8c9ecaf4ff06df808c.setContent(html_425d25473f2b77ba979a843fb235138f);
+            
+        
+
+        marker_fcc1ab7eef35353b9a783416bf4805e5.bindPopup(popup_fbdedc205008fe8c9ecaf4ff06df808c)
+        ;
+
+        
+    
+    
+                marker_fcc1ab7eef35353b9a783416bf4805e5.setIcon(icon_3b25ea82cd5e477a891c1ea21e28bae5);
+            
+    
+            var marker_247b1d86e2702bafc645f7d2fd14a05a = L.marker(
+                [40.764, -73.9728],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_dcc49ded99c58c5dd8dba0ec15d16485 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c7c04672adcf95e8d87c35f6b6d82b5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98a39890c87989c24f84ac8230e737d2 = $(`<div id="html_98a39890c87989c24f84ac8230e737d2" style="width: 100.0%; height: 100.0%;"><b>Bottega Residence</b></div>`)[0];
+                popup_c7c04672adcf95e8d87c35f6b6d82b5e.setContent(html_98a39890c87989c24f84ac8230e737d2);
+            
+        
+
+        marker_247b1d86e2702bafc645f7d2fd14a05a.bindPopup(popup_c7c04672adcf95e8d87c35f6b6d82b5e)
+        ;
+
+        
+    
+    
+                marker_247b1d86e2702bafc645f7d2fd14a05a.setIcon(icon_dcc49ded99c58c5dd8dba0ec15d16485);
+            
+    
+            var marker_e1d34cc7985a2b1c77f955c5316df0fc = L.marker(
+                [40.7623, -73.9798],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_fb4305fcfd449738f11475f06d246e82 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bed",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_123cf2c544fe8e6271e506da1a477b43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0c6b01599517bfa523188cb2aaebd72 = $(`<div id="html_a0c6b01599517bfa523188cb2aaebd72" style="width: 100.0%; height: 100.0%;"><b>WestHouse Hotel</b></div>`)[0];
+                popup_123cf2c544fe8e6271e506da1a477b43.setContent(html_a0c6b01599517bfa523188cb2aaebd72);
+            
+        
+
+        marker_e1d34cc7985a2b1c77f955c5316df0fc.bindPopup(popup_123cf2c544fe8e6271e506da1a477b43)
+        ;
+
+        
+    
+    
+                marker_e1d34cc7985a2b1c77f955c5316df0fc.setIcon(icon_fb4305fcfd449738f11475f06d246e82);
+            
+    
+            var marker_069942020e6062b446565ad48e66d2dc = L.marker(
+                [40.8084, -73.9631],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_f1606cd1d2a36af5d15553af06bc3a9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e673e2088b7a64a3be7c8d37fdb5eb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98dddda7a505a9eb737686d03f0097e8 = $(`<div id="html_98dddda7a505a9eb737686d03f0097e8" style="width: 100.0%; height: 100.0%;"><b>Columbia Biz</b></div>`)[0];
+                popup_5e673e2088b7a64a3be7c8d37fdb5eb3.setContent(html_98dddda7a505a9eb737686d03f0097e8);
+            
+        
+
+        marker_069942020e6062b446565ad48e66d2dc.bindPopup(popup_5e673e2088b7a64a3be7c8d37fdb5eb3)
+        ;
+
+        
+    
+    
+                marker_069942020e6062b446565ad48e66d2dc.setIcon(icon_f1606cd1d2a36af5d15553af06bc3a9e);
+            
+    
+            var marker_ff8717902bfb94ca6045f3b8966cff04 = L.marker(
+                [40.7396, -74.0089],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_2ba22ec272e2c5b369d4f70d8f389664 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "university",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a8399a60b645a2fb7eab752ad10e863a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc75aa1f9318979b8ad8ffb3331b5186 = $(`<div id="html_bc75aa1f9318979b8ad8ffb3331b5186" style="width: 100.0%; height: 100.0%;"><b>The Whitney</b></div>`)[0];
+                popup_a8399a60b645a2fb7eab752ad10e863a.setContent(html_bc75aa1f9318979b8ad8ffb3331b5186);
+            
+        
+
+        marker_ff8717902bfb94ca6045f3b8966cff04.bindPopup(popup_a8399a60b645a2fb7eab752ad10e863a)
+        ;
+
+        
+    
+    
+                marker_ff8717902bfb94ca6045f3b8966cff04.setIcon(icon_2ba22ec272e2c5b369d4f70d8f389664);
+            
+    
+            var marker_a98b7f965aaca7c8430c7779981db31b = L.marker(
+                [40.7011, -74.012],
+                {
+}
+            ).addTo(map_b3583234281bcaa7aa7671a9ad194218);
+        
+    
+            var icon_5f64fe745fea430788f37f63cac33161 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b48a4e52672ed5af7696b3421be9727b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8f99f62c088911cc3000e76ce78b7bf = $(`<div id="html_d8f99f62c088911cc3000e76ce78b7bf" style="width: 100.0%; height: 100.0%;"><b>Casa Cipriani</b></div>`)[0];
+                popup_b48a4e52672ed5af7696b3421be9727b.setContent(html_d8f99f62c088911cc3000e76ce78b7bf);
+            
+        
+
+        marker_a98b7f965aaca7c8430c7779981db31b.bindPopup(popup_b48a4e52672ed5af7696b3421be9727b)
+        ;
+
+        
+    
+    
+                marker_a98b7f965aaca7c8430c7779981db31b.setIcon(icon_5f64fe745fea430788f37f63cac33161);
+            
+</script>
+</html>
